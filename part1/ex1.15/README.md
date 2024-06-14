@@ -1,3 +1,5 @@
+The source project is on github: https://github.com/mfoschian/faceTracker
+
 See the DockerHub image visiting: https://hub.docker.com/r/mfoschian/face_tracker
 
 ```
