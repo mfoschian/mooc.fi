@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        - api_url=http://localhost:8080
+    container_name: frontend
+    ports:
+      - "5000:5000"
+
+  backend:
+    build:
+      context: ./backend
+      args:
+        - cors=http://localhost:5000
+        - redis_host=redis
+    container_name: backend
+    ports:
+      - "8080:8080"
+
+  redis:
+    image: redis
+
+
