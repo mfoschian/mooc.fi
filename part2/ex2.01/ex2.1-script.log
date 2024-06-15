@@ -1,0 +1,237 @@
+Script started on 2024-06-15 15:19:55+02:00 [TERM="vanilla" TTY="/dev/pts/0" COLUMNS="204" LINES="55"]
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part2/ex2.01$ docker compose up
+[33mWARN[0m[0000] /home/mfx/_dev/@github/mooc.fi/part2/ex2.01/docker-compose.yml: `version` is obsolete 
+[1A[1B[0G[?25l[+] Running 0/0
+ [33m⠙[0m simple-web-service Pulling                                                                                                                                                                          [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m simple-web-service Pulling                                                                                                                                                                          [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m simple-web-service Pulling                                                                                                                                                                          [34m0.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m simple-web-service Pulling                                                                                                                                                                          [34m0.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m simple-web-service Pulling                                                                                                                                                                          [34m0.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m simple-web-service Pulling                                                                                                                                                                          [34m0.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m simple-web-service Pulling                                                                                                                                                                          [34m0.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m simple-web-service Pulling                                                                                                                                                                          [34m0.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m simple-web-service Pulling                                                                                                                                                                          [34m0.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m simple-web-service Pulling                                                                                                                                                                          [34m1.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m simple-web-service Pulling                                                                                                                                                                          [34m1.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m simple-web-service Pulling                                                                                                                                                                          [34m1.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m simple-web-service Pulling                                                                                                                                                                          [34m1.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m simple-web-service Pulling                                                                                                                                                                          [34m1.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m simple-web-service Pulling                                                                                                                                                                          [34m1.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m simple-web-service Pulling                                                                                                                                                                          [34m1.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m simple-web-service Pulling                                                                                                                                                                          [34m1.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m simple-web-service Pulling                                                                                                                                                                          [34m1.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m simple-web-service Pulling                                                                                                                                                                          [34m1.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m simple-web-service Pulling                                                                                                                                                                          [34m2.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m simple-web-service Pulling                                                                                                                                                                          [34m2.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m simple-web-service Pulling                                                                                                                                                                          [34m2.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m simple-web-service [[32m⠀⠀[0m] Pulling                                                                                                                                                                     [34m2.3s [0m
+   [33m⠋[0m cd2b813b068d Pulling fs layer                                                                                                                                                                     [34m0.0s [0m
+   [33m⠋[0m 4f4fb700ef54 Pulling fs layer                                                                                                                                                                     [34m0.0s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 0/3
+ [33m⠼[0m simple-web-service [[32m⠀⠀[0m] Pulling                                                                                                                                                                     [34m2.4s [0m
+   [33m⠙[0m cd2b813b068d Pulling fs layer                                                                                                                                                                     [34m0.1s [0m
+   [33m⠙[0m 4f4fb700ef54 Pulling fs layer                                                                                                                                                                     [34m0.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 0/3
+ [33m⠴[0m simple-web-service [[32m⠀⠀[0m] Pulling                                                                                                                                                                     [34m2.5s [0m
+   [33m⠹[0m cd2b813b068d Pulling fs layer                                                                                                                                                                     [34m0.2s [0m
+   [33m⠹[0m 4f4fb700ef54 Pulling fs layer                                                                                                                                                                     [34m0.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 0/3
+ [33m⠦[0m simple-web-service [[32m⠀⠀[0m] Pulling                                                                                                                                                                     [34m2.6s [0m
+   [33m⠸[0m cd2b813b068d Pulling fs layer                                                                                                                                                                     [34m0.3s [0m
+   [33m⠸[0m 4f4fb700ef54 Pulling fs layer                                                                                                                                                                     [34m0.3s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 0/3
+ [33m⠧[0m simple-web-service [[32m⠀⠀[0m] Pulling                                                                                                                                                                     [34m2.7s [0m
+   [33m⠼[0m cd2b813b068d Pulling fs layer                                                                                                                                                                     [34m0.4s [0m
+   [33m⠼[0m 4f4fb700ef54 Pulling fs layer                                                                                                                                                                     [34m0.4s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 0/3
+ [33m⠇[0m simple-web-service [[32m⠀⠀[0m] Pulling                                                                                                                                                                     [34m2.8s [0m
+   [33m⠴[0m cd2b813b068d Pulling fs layer                                                                                                                                                                     [34m0.5s [0m
+   [33m⠴[0m 4f4fb700ef54 Pulling fs layer                                                                                                                                                                     [34m0.5s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 0/3
+ [33m⠏[0m simple-web-service [[32m⠀⠀[0m] Pulling                                                                                                                                                                     [34m2.9s [0m
+   [33m⠦[0m cd2b813b068d Pulling fs layer                                                                                                                                                                     [34m0.6s [0m
+   [33m⠦[0m 4f4fb700ef54 Pulling fs layer                                                                                                                                                                     [34m0.6s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [33m⠋[0m simple-web-service [[32m⠀⣿[0m] 51.22kB / 5.117MB Pulling                                                                                                                                                   [34m3.0s [0m
+   [33m⠧[0m cd2b813b068d Downloading     [>                                                  ]  51.19kB/5.117MB                                                                                               [34m0.7s [0m
+   [32m✔[0m 4f4fb700ef54 Download complete [32m[0m                                                                                                                                                                   [34m0.7s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [33m⠙[0m simple-web-service [[32m⠀⣿[0m] 601.4kB / 5.117MB Pulling                                                                                                                                                   [34m3.1s [0m
+   [33m⠇[0m cd2b813b068d Downloading     [=====>                                             ]  601.3kB/5.117MB                                                                                               [34m0.8s [0m
+   [32m✔[0m 4f4fb700ef54 Download complete [32m[0m                                                                                                                                                                   [34m0.7s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [33m⠹[0m simple-web-service [[32m⠀⣿[0m] 601.4kB / 5.117MB Pulling                                                                                                                                                   [34m3.2s [0m
+   [33m⠏[0m cd2b813b068d Downloading     [=====>                                             ]  601.3kB/5.117MB                                                                                               [34m0.9s [0m
+   [32m✔[0m 4f4fb700ef54 Download complete [32m[0m                                                                                                                                                                   [34m0.7s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [33m⠸[0m simple-web-service [[32m⡀⣿[0m] 1.108MB / 5.117MB Pulling                                                                                                                                                   [34m3.3s [0m
+   [33m⠋[0m cd2b813b068d Downloading     [==========>                                        ]  1.108MB/5.117MB                                                                                               [34m1.0s [0m
+   [32m✔[0m 4f4fb700ef54 Download complete [32m[0m                                                                                                                                                                   [34m0.7s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [33m⠼[0m simple-web-service [[32m⣄⣿[0m] 2.157MB / 5.117MB Pulling                                                                                                                                                   [34m3.4s [0m
+   [33m⠙[0m cd2b813b068d Downloading     [=====================>                             ]  2.157MB/5.117MB                                                                                               [34m1.1s [0m
+   [32m✔[0m 4f4fb700ef54 Download complete [32m[0m                                                                                                                                                                   [34m0.7s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [33m⠴[0m simple-web-service [[32m⣤⣿[0m] 2.739MB / 5.117MB Pulling                                                                                                                                                   [34m3.5s [0m
+   [33m⠹[0m cd2b813b068d Downloading     [==========================>                        ]  2.738MB/5.117MB                                                                                               [34m1.2s [0m
+   [32m✔[0m 4f4fb700ef54 Download complete [32m[0m                                                                                                                                                                   [34m0.7s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [33m⠦[0m simple-web-service [[32m⣦⣿[0m] 3.455MB / 5.117MB Pulling                                                                                                                                                   [34m3.6s [0m
+   [33m⠸[0m cd2b813b068d Downloading     [=================================>                 ]  3.455MB/5.117MB                                                                                               [34m1.3s [0m
+   [32m✔[0m 4f4fb700ef54 Download complete [32m[0m                                                                                                                                                                   [34m0.7s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [33m⠧[0m simple-web-service [[32m⣶⣿[0m] 4.176MB / 5.117MB Pulling                                                                                                                                                   [34m3.7s [0m
+   [33m⠼[0m cd2b813b068d Downloading     [========================================>          ]  4.176MB/5.117MB                                                                                               [34m1.4s [0m
+   [32m✔[0m 4f4fb700ef54 Download complete [32m[0m                                                                                                                                                                   [34m0.7s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [33m⠇[0m simple-web-service [[32m⣿⣿[0m] 4.832MB / 5.117MB Pulling                                                                                                                                                   [34m3.8s [0m
+   [32m✔[0m cd2b813b068d Download complete [32m[0m                                                                                                                                                                   [34m1.5s [0m
+   [32m✔[0m 4f4fb700ef54 Download complete [32m[0m                                                                                                                                                                   [34m0.7s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [33m⠏[0m simple-web-service [[32m⣿⣿[0m] 5.117MB / 5.117MB Pulling                                                                                                                                                   [34m3.9s [0m
+   [32m✔[0m cd2b813b068d Pull complete [32m[0m                                                                                                                                                                       [34m1.6s [0m
+   [33m⠧[0m 4f4fb700ef54 Extracting [==================================================>]      32B/32B                                                                                                        [34m1.6s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+ [32m✔[0m simple-web-service Pulled [32m[0m                                                                                                                                                                          [34m4.0s [0m
+   [32m✔[0m cd2b813b068d Pull complete [32m[0m                                                                                                                                                                       [34m1.6s [0m
+   [32m✔[0m 4f4fb700ef54 Pull complete [32m[0m                                                                                                                                                                       [34m1.6s [0m
+[?25h[1A[1B[0G[?25l[+] Running 0/0
+ [33m⠋[0m Network ex201_default  Creating                                                                                                                                                                     [34m0.0s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ [32m✔[0m Network ex201_default  [32mCreated[0m                                                                                                                                                                      [34m0.1s [0m
+ [33m⠋[0m Container webservice   Creating                                                                                                                                                                     [34m0.0s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Network ex201_default  [32mCreated[0m                                                                                                                                                                      [34m0.1s [0m
+ [32m✔[0m Container webservice   [32mCreated[0m                                                                                                                                                                      [34m0.1s [0m
+[?25hAttaching to webservice
+[36mwebservice  | [0mStarting log output
+[36mwebservice  | [0m<nil>
+[36mwebservice  | [0mopen /usr/src/app/text.log: is a directory
+[36mwebservice  | [0m<nil>
+[36mwebservice  | [0mopen /usr/src/app/text.log: is a directory
+[36mwebservice  | [0m<nil>
+[36mwebservice  | [0mopen /usr/src/app/text.log: is a directory
+^CGracefully stopping... (press Ctrl+C again to force)
+[1A[1B[0G[?25l[+] Stopping 0/0
+ [33m⠋[0m Container webservice  Stopping                                                                                                                                                                      [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Stopping 0/1
+ [33m⠙[0m Container webservice  Stopping                                                                                                                                                                      [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Stopping 1/1[0m
+ [32m✔[0m Container webservice  [32mStopped[0m                                                                                                                                                                       [34m0.2s [0m
+[?25hcanceled
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part2/ex2.01$ ll
+total 36
+drwxrwxr-x 3 mfx  mfx   4096 giu 15 15:20 [0m[01;34m.[0m/
+drwxrwxr-x 3 mfx  mfx   4096 giu 15 15:16 [01;34m..[0m/
+-rw-rw-r-- 1 mfx  mfx    193 giu 15 15:19 docker-compose.yml
+drwxr-xr-x 2 root root  4096 giu 15 15:20 [01;34mtext.log[0m/
+-rw-rw-r-- 1 mfx  mfx  20480 giu 15 15:20 typescript
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part2/ex2.01$ rmdir text.log
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part2/ex2.01$ touch text.log
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part2/ex2.01$ compo     docker compose up
+[33mWARN[0m[0000] /home/mfx/_dev/@github/mooc.fi/part2/ex2.01/docker-compose.yml: `version` is obsolete 
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container webservice  [32mCreated[0m                                                                                                                                                                       [34m0.0s [0m
+[?25hAttaching to webservice
+Gracefully stopping... (press Ctrl+C again to force)
+Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error mounting "/home/mfx/_dev/@github/mooc.fi/part2/ex2.01/text.log" to rootfs at "/usr/src/app/text.log": mount /home/mfx/_dev/@github/mooc.fi/part2/ex2.01/text.log:/usr/src/app/text.log (via /proc/self/fd/6), flags: 0x5000: not a directory: unknown: Are you trying to mount a directory onto a file (or vice-versa)? Check if the specified host path exists and is the expected type
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part2/ex2.01$ sock    docker compose so  down
+[33mWARN[0m[0000] /home/mfx/_dev/@github/mooc.fi/part2/ex2.01/docker-compose.yml: `version` is obsolete 
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container webservice   [32mRemoved[0m                                                                                                                                                                      [34m0.0s [0m
+ [33m⠋[0m Network ex201_default  Removing                                                                                                                                                                     [34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container webservice   [32mRemoved[0m                                                                                                                                                                      [34m0.0s [0m
+ [33m⠙[0m Network ex201_default  Removing                                                                                                                                                                     [34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container webservice   [32mRemoved[0m                                                                                                                                                                      [34m0.0s [0m
+ [33m⠹[0m Network ex201_default  Removing                                                                                                                                                                     [34m0.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container webservice   [32mRemoved[0m                                                                                                                                                                      [34m0.0s [0m
+ [33m⠸[0m Network ex201_default  Removing                                                                                                                                                                     [34m0.4s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Container webservice   [32mRemoved[0m                                                                                                                                                                      [34m0.0s [0m
+ [32m✔[0m Network ex201_default  [32mRemoved[0m                                                                                                                                                                      [34m0.4s [0m
+[?25hmfx@mfx-ux:~/_dev/@github/mooc.fi/part2/ex2.01$ docker compose downup  
+[33mWARN[0m[0000] /home/mfx/_dev/@github/mooc.fi/part2/ex2.01/docker-compose.yml: `version` is obsolete 
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Network ex201_default  [32mCreated[0m                                                                                                                                                                      [34m0.1s [0m
+ [33m⠋[0m Container webservice   Creating                                                                                                                                                                     [34m0.0s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Network ex201_default  [32mCreated[0m                                                                                                                                                                      [34m0.1s [0m
+ [32m✔[0m Container webservice   [32mCreated[0m                                                                                                                                                                      [34m0.0s [0m
+[?25hAttaching to webservice
+[36mwebservice  | [0mStarting log output
+[36mwebservice  | [0mWrote text to /usr/src/app/text.log
+[36mwebservice  | [0mWrote text to /usr/src/app/text.log
+[36mwebservice  | [0mWrote text to /usr/src/app/text.log
+[36mwebservice  | [0mWrote text to /usr/src/app/text.log
+[36mwebservice  | [0mWrote text to /usr/src/app/text.log
+[36mwebservice  | [0mWrote text to /usr/src/app/text.log
+[36mwebservice  | [0mWrote text to /usr/src/app/text.log
+[36mwebservice  | [0mWrote text to /usr/src/app/text.log
+[36mwebservice  | [0mWrote text to /usr/src/app/text.log
+^CGracefully stopping... (press Ctrl+C again to force)
+[1A[1B[0G[?25l[+] Stopping 0/0
+ [33m⠋[0m Container webservice  Stopping                                                                                                                                                                      [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Stopping 0/1
+ [33m⠙[0m Container webservice  Stopping                                                                                                                                                                      [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Stopping 1/1[0m
+ [32m✔[0m Container webservice  [32mStopped[0m                                                                                                                                                                       [34m0.2s [0m
+[?25hcanceled
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part2/ex2.01$ docker compose updown
+[33mWARN[0m[0000] /home/mfx/_dev/@github/mooc.fi/part2/ex2.01/docker-compose.yml: `version` is obsolete 
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container webservice   [32mRemoved[0m                                                                                                                                                                      [34m0.0s [0m
+ [33m⠋[0m Network ex201_default  Removing                                                                                                                                                                     [34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container webservice   [32mRemoved[0m                                                                                                                                                                      [34m0.0s [0m
+ [33m⠙[0m Network ex201_default  Removing                                                                                                                                                                     [34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container webservice   [32mRemoved[0m                                                                                                                                                                      [34m0.0s [0m
+ [33m⠹[0m Network ex201_default  Removing                                                                                                                                                                     [34m0.3s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Container webservice   [32mRemoved[0m                                                                                                                                                                      [34m0.0s [0m
+ [32m✔[0m Network ex201_default  [32mRemoved[0m                                                                                                                                                                      [34m0.4s [0m
+[?25hmfx@mfx-ux:~/_dev/@github/mooc.fi/part2/ex2.01$ ll
+total 44
+drwxrwxr-x 2 mfx mfx  4096 giu 15 15:20 [0m[01;34m.[0m/
+drwxrwxr-x 3 mfx mfx  4096 giu 15 15:16 [01;34m..[0m/
+-rw-rw-r-- 1 mfx mfx   193 giu 15 15:19 docker-compose.yml
+-rw-rw-r-- 1 mfx mfx   325 giu 15 15:21 text.log
+-rw-rw-r-- 1 mfx mfx 28672 giu 15 15:21 typescript
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part2/ex2.01$ cat text.log
+2024-06-15 13:20:51 +0000 UTC
+2024-06-15 13:20:53 +0000 UTC
+2024-06-15 13:20:55 +0000 UTC
+2024-06-15 13:20:57 +0000 UTC
+2024-06-15 13:20:59 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-06-15 13:21:01 +0000 UTC
+2024-06-15 13:21:03 +0000 UTC
+2024-06-15 13:21:05 +0000 UTC
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part2/ex2.01$ exit
+
+Script done on 2024-06-15 15:21:24+02:00 [COMMAND_EXIT_CODE="0"]
