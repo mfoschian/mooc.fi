@@ -1,0 +1,18 @@
+Script started on 2024-06-15 09:42:19+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="204" LINES="55"]
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.01[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.01[00m$ docker ps -a
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+d6d327a2adf8   nginx     "/docker-entrypoint.…"   48 seconds ago   Up 46 seconds   80/tcp    stoic_fermat
+42a32bfea6a6   nginx     "/docker-entrypoint.…"   52 seconds ago   Up 50 seconds   80/tcp    musing_wing
+163811399df9   nginx     "/docker-entrypoint.…"   2 minutes ago    Up 2 minutes    80/tcp    adoring_solomon
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.01[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.01[00m$ docker container stop d6 16
+[?2004ld6
+16
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.01[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.01[00m$ docker container stop d6 16ps -a[K
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                     PORTS     NAMES
+d6d327a2adf8   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 5 seconds ago             stoic_fermat
+42a32bfea6a6   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute          80/tcp    musing_wing
+163811399df9   nginx     "/docker-entrypoint.…"   3 minutes ago        Exited (0) 5 seconds ago             adoring_solomon
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.01[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.01[00m$ [?2004l
+exit
+
+Script done on 2024-06-15 09:43:01+02:00 [COMMAND_EXIT_CODE="0"]
