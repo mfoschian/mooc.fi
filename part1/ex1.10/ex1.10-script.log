@@ -1,0 +1,9 @@
+Script started on 2024-06-15 12:31:20+02:00 [TERM="vanilla" TTY="/dev/pts/0" COLUMNS="204" LINES="55"]
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part1/ex1.10$ docker run -p 8080:8080 -d devopsdockeruh/simple-web-service:alpine server
+25b9f315e81dd8fb047aa6d09a7132d8ef12da75077409689ff47ab05c23df3e
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part1/ex1.10$ curl localhost:8080
+{"message":"You connected to the following path: /","path":"/"}mfx@mfx-ux:~/_dev/@github/mooc.fi/part1/ex1.10$ 
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part1/ex1.10$ 
+mfx@mfx-ux:~/_dev/@github/mooc.fi/part1/ex1.10$ exit
+
+Script done on 2024-06-15 12:31:47+02:00 [COMMAND_EXIT_CODE="0"]
