@@ -1,0 +1,49 @@
+Script started on 2024-06-15 11:08:07+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="199" LINES="24"]
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.05[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.05[00m$ export img=devopsdockeruh/simple-e[Kweb-service
+[?2004l
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.05[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.05[00m$ docker pull $img:ubuntu
+[?2004l
+ubuntu: Pulling from devopsdockeruh/simple-web-service
+
+[...omitted...]
+
+[1BDigest: sha256:d44e1dce398732e18c7c2bad9416a072f719af33498302b02929d4c112e88d2a
+Status: Downloaded newer image for devopsdockeruh/simple-web-service:ubuntu
+docker.io/devopsdockeruh/simple-web-service:ubuntu
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.05[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.05[00m$ docker pull $img:alpine
+[?2004l
+alpine: Pulling from devopsdockeruh/simple-web-service
+
+[... omitted ...]
+
+4f4fb700ef54: Pull complete 
+[1BDigest: sha256:dd4d367476f86b7d7579d3379fe446ae5dfce25480903fb0966fc2e5257e0543
+Status: Downloaded newer image for devopsdockeruh/simple-web-service:alpine
+docker.io/devopsdockeruh/simple-web-service:alpine
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.05[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.05[00m$ docker image ls
+[?2004l
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   3 years ago   15.7MB
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.05[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.05[00m$ docker run -d devopsdockeruh/simple-web-service:alpine
+[?2004l
+bcaa611d0673f8ea4a40d7bf60e749c8d57606a485bbc00ac7913ce444f31086
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.05[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.05[00m$ docker exec bc tail -f ./text.log
+[?2004l
+2024-06-15 09:10:54 +0000 UTC
+2024-06-15 09:10:56 +0000 UTC
+2024-06-15 09:10:58 +0000 UTC
+2024-06-15 09:11:00 +0000 UTC
+2024-06-15 09:11:02 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-06-15 09:11:04 +0000 UTC
+2024-06-15 09:11:06 +0000 UTC
+2024-06-15 09:11:08 +0000 UTC
+2024-06-15 09:11:10 +0000 UTC
+2024-06-15 09:11:12 +0000 UTC
+^C
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.05[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.05[00m$ [?2004l
+
+exit
+
+Script done on 2024-06-15 11:11:14+02:00 [COMMAND_EXIT_CODE="130"]
