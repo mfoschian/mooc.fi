@@ -1,0 +1,28 @@
+Script started on 2024-06-15 10:16:11+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="204" LINES="55"]
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.03[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.03[00m$ docker run -d [7mdevopsdockeruh/simple-web-service:ubuntu[27mdevopsdockeruh/simple-web-service:ubuntu
+[?2004l82f43b85112a42e63b4dc17082fa31cfb05e161f6f83ba50579f0a5ca51f05e6
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.03[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.03[00m$ docker exec 82 ls -la
+[?2004ltotal 9868
+drwxr-xr-x 1 root root     4096 Jun 15 08:16 .
+drwxr-xr-x 1 root root     4096 Mar 14  2021 ..
+-rwxr-xr-x 1 root root 10085718 Mar 14  2021 server
+-rw-r--r-- 1 root root      150 Jun 15 08:16 text.log
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.03[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.03[00m$ docker exec 82 ls -la[K[K[K[K[K[Ktail -f ./text.log
+[?2004l2024-06-15 08:16:38 +0000 UTC
+2024-06-15 08:16:40 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-06-15 08:16:42 +0000 UTC
+2024-06-15 08:16:44 +0000 UTC
+2024-06-15 08:16:46 +0000 UTC
+2024-06-15 08:16:48 +0000 UTC
+2024-06-15 08:16:50 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-06-15 08:16:52 +0000 UTC
+2024-06-15 08:16:54 +0000 UTC
+2024-06-15 08:16:56 +0000 UTC
+2024-06-15 08:16:58 +0000 UTC
+^C
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.03[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.03[00m$ [?2004l
+exit
+
+Script done on 2024-06-15 10:17:02+02:00 [COMMAND_EXIT_CODE="130"]
