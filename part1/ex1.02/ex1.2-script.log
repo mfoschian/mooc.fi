@@ -1,0 +1,60 @@
+Script started on 2024-06-15 09:48:56+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="204" LINES="55"]
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.02[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.02[00m$ docker ps -a
+[?2004lCONTAINER ID   IMAGE         COMMAND                  CREATED         STATUS                     PORTS     NAMES
+8fef6168c56e   hello-world   "/hello"                 4 minutes ago   Exited (0) 4 minutes ago             bold_hypatia
+d6d327a2adf8   nginx         "/docker-entrypoint.…"   7 minutes ago   Exited (0) 6 minutes ago             stoic_fermat
+42a32bfea6a6   nginx         "/docker-entrypoint.…"   7 minutes ago   Up 7 minutes               80/tcp    musing_wing
+163811399df9   nginx         "/docker-entrypoint.…"   9 minutes ago   Exited (0) 6 minutes ago             adoring_solomon
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.02[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.02[00m$ docker image ls -a
+[?2004lREPOSITORY    TAG       IMAGE ID       CREATED         SIZE
+nginx         latest    dde0cca083bc   2 weeks ago     188MB
+hello-world   latest    d2c94e258dcb   13 months ago   13.3kB
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.02[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.02[00m$ docker container stop 42
+[?2004l42
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.02[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.02[00m$ docker container stop 42[6Pimage ls -a[6Pp[C[C[C[C[6@image l[C[C[C[C[6Pp[C[C[C[C
+[?2004lCONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS                     PORTS     NAMES
+8fef6168c56e   hello-world   "/hello"                 4 minutes ago    Exited (0) 4 minutes ago             bold_hypatia
+d6d327a2adf8   nginx         "/docker-entrypoint.…"   7 minutes ago    Exited (0) 6 minutes ago             stoic_fermat
+42a32bfea6a6   nginx         "/docker-entrypoint.…"   8 minutes ago    Exited (0) 4 seconds ago             musing_wing
+163811399df9   nginx         "/docker-entrypoint.…"   10 minutes ago   Exited (0) 6 minutes ago             adoring_solomon
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.02[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.02[00m$ docker container prune
+[?2004lWARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+8fef6168c56eca8e09ede6500fa89bcc1a788ba4077dd7f5890d69b5d5693ea3
+d6d327a2adf8b5ca48622f3dac870d48b1f999c3a0b05436cba151ea32dfc8fc
+42a32bfea6a6db22dbb58c498f8c311556afa4cb4dbadbab121ced71820ec9dc
+163811399df9d8681d3e91cd1c8c194c074416453916a29a5a995d50d43439dc
+
+Total reclaimed space: 3.279kB
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.02[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.02[00m$ docker image prune
+[?2004lWARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] y
+Total reclaimed space: 0B
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.02[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.02[00m$ docker image ls 
+[?2004lREPOSITORY    TAG       IMAGE ID       CREATED         SIZE
+nginx         latest    dde0cca083bc   2 weeks ago     188MB
+hello-world   latest    d2c94e258dcb   13 months ago   13.3kB
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.02[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.02[00m$ docker rmi dd d2
+[?2004lUntagged: nginx:latest
+Untagged: nginx@sha256:56b388b0d79c738f4cf51bbaf184a14fab19337f4819ceb2cae7d94100262de8
+Deleted: sha256:dde0cca083bc75a0af14262b1469b5141284b4399a62fef923ec0c0e3b21f5bc
+Deleted: sha256:7f312d50ef9273310c9193b299c0f046e07d98efe298271418ba6b335f402e6b
+Deleted: sha256:546adcd8106e3d3cdde9c72dd40b44e1c7ace56c9a101b7c727a209b4a30cde6
+Deleted: sha256:d7708c25ce0484ee9265905ace649799ac6a25a7ca54b70696992451dd434b66
+Deleted: sha256:36cb17d20bc9daac929b6377c16fe26704818b582496aadc3d2c03cc9623903e
+Deleted: sha256:099395f1f9a64c73b86f22966b5894e0a857d60dbaadecfbb8c8f24efc988cf9
+Deleted: sha256:9527f94a33967307a6e3c9bcff2e71303e679100d9d919200a512068739391af
+Deleted: sha256:1387079e86adf524e7e92bada71d261d9ff58f34409751ab36560385262a8386
+Untagged: hello-world:latest
+Untagged: hello-world@sha256:d1b0b5888fbb59111dbf2b3ed698489c41046cb9d6d61743e37ef8d9f3dda06f
+Deleted: sha256:d2c94e258dcb3c5ac2798d32e1249e42ef01cba4841c2234249495f87264ac5a
+Deleted: sha256:ac28800ec8bb38d5c35b49d45a6ac4777544941199075dff8c4eb63e093aa81e
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.02[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.02[00m$ docker rmi dd d2image ls -a
+[?2004lREPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.02[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.02[00m$ docker ps -a
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;mfx@mfx-ux: ~/_dev/@github/mooc.fi/part1/ex1.02[01;32mmfx@mfx-ux[00m:[01;34m~/_dev/@github/mooc.fi/part1/ex1.02[00m$ [?2004l
+exit
+
+Script done on 2024-06-15 09:50:23+02:00 [COMMAND_EXIT_CODE="0"]
