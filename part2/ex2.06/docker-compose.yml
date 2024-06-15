@@ -1,0 +1,45 @@
+version: '4'
+
+services:
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        - api_url=http://localhost:8080
+
+    container_name: frontend
+    ports:
+      - "5000:5000"
+
+  backend:
+    environment:
+      - POSTGRES_HOST=db
+      - POSTGRES_USER=mfx
+      - POSTGRES_PASSWORD=supersecret
+      - POSTGRES_DATABASE=postgres
+    build:
+      context: ./backend
+      args:
+        - cors=http://localhost:5000
+        - redis_host=redis
+    container_name: backend
+    ports:
+      - "8080:8080"
+
+  redis:
+    image: redis
+
+
+  db:
+    image: postgres:13.2-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: mfx
+      POSTGRES_PASSWORD: supersecret
+    container_name: db_psql
+    volumes:
+      - database:/var/lib/postgresql/data
+
+volumes:
+  database:
